@@ -1,9 +1,9 @@
 
-# module "ops_vm" {
-#   source = "./virtual-machine"  
+module "ops_vm" {
+  source = "./virtual-machine"  
   
-#   vm_name           = "ops-vm-001"
-# }
+  vm_name           = "ops-vm-001"
+}
 
 module "eweb_debug_vm" {
   source = "./virtual-machine"  
